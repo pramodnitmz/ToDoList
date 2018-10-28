@@ -16,3 +16,6 @@ $("input").keypress(function(event){
         // $("ul").html("<li><span></span> " + todoText+ "</li>") it will remove previous and all and will add new
     }
 })
+$(".fa-plus").click(function(){
+    $("input").fadeToggle();
+});
