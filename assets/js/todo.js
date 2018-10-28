@@ -12,7 +12,7 @@ $("input").keypress(function(event){
         //grab input value
         var todoText=$(this).val();
         //add todoText to ul
-        $("ul").append("<li><span>X</span> " + todoText+ "</li>")
-        // $("ul").html("<li><span>X</span> " + todoText+ "</li>") it will remove previous and all and will add new
+        $("ul").append("<li><span><i class='far fa-trash-alt'></i></span> " + todoText+ "</li>")
+        // $("ul").html("<li><span></span> " + todoText+ "</li>") it will remove previous and all and will add new
     }
 })
